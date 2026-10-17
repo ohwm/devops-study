@@ -4,10 +4,18 @@
       "Read(~/.zprofile)",
       "Read(~/.ssh/**)",
       "Edit(~/.ssh/**)",
-      "Edit(~/.zprofile)"
+      "Edit(~/.zprofile)",
+      "Read(** .env)",
+      "Edit(** .env)"
     ],
     "ask": [
-      "Bash(rm *)"
+      "Bash(rm *)",
+      "Bash(git push *)"
+    ],
+    "allow": [
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)"
     ]
   }
 }
