@@ -14,7 +14,8 @@
 
 ## 현재 진도
 - Phase 0 (환경 세팅) 현재 아직 환경 세팅 중이야.
-현재 남은 환경 세팅: .claude/settings.json 만들기, /quiz 커맨드 만들기, VM 세팅 + ssh 접속
+- 현재 남은 환경 세팅: .claude/settings.json 만들기, /quiz 커맨드 만들기, VM 세팅 + ssh 접속
+- 현재 Phase의 남은 작업이 모두 끝나기 전에는 다음 Phase의 내용을 내지 않는다.
 - 지금까지 배운 내용은 til/ 폴더의 TIL 파일을 참고한다.
 
 ## 환경과 저장소 규칙

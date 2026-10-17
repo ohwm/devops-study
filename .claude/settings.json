@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(~/.zprofile)",
+      "Read(~/.ssh/**)",
+      "Edit(~/.ssh/**)",
+      "Edit(~/.zprofile)"
+    ],
+    "ask": [
+      "Bash(rm *)"
+    ]
+  }
+}
