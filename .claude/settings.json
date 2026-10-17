@@ -5,8 +5,8 @@
       "Read(~/.ssh/**)",
       "Edit(~/.ssh/**)",
       "Edit(~/.zprofile)",
-      "Read(** .env)",
-      "Edit(** .env)"
+      "Read(**/.env)",
+      "Edit(**/.env)"
     ],
     "ask": [
       "Bash(rm *)",
