@@ -1,14 +1,12 @@
 ---
 description: 해당 Phase 혹은 해당 날짜에 공부한 내용에 대한 quiz를 낸다.
-argument-hint: [예시: linux, 2026-10-14]
+argument-hint: [예시: linux, 2026-10-14, Phase0]
 ---
 
-예를 들어 /quiz linux면 리눅스 문제를 내고, 인자가 없으면 TIL 전체에서 고르기
-날짜가 인자로 들어오면 til/$ARGUMENTS.md 의 내용에 대해 문제 내기
 - 인자 없음 → 지금 나에게 가장 부족하다고 생각하는 부분 문제내기
 - 날짜 (2026-10-14) → 해당 날짜의 TIL 내용으로 문제내기
 - 주제 (linux) → 공부했던 내용 중 Linux에 관한 내용으로 문제내기
-- Phase (phase0) → 해당 Phase에 대한 내용으로 문제내기기
+- Phase (phase0) → 해당 Phase에 대한 내용으로 문제내기
 
 til/ 폴더 내용과 notes/의 틀린 문제를 모아서 문제 내기
 
